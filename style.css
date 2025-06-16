@@ -6,20 +6,22 @@ body{
     background-image: url(pexels-asphotograpy-96622.jpg);
     background-size: cover;
 }
-.hasil{
+#hasil{
     background-color: white;
     width: 400px;
     height:120px;
     border-radius: 10px;
     margin-left:480px;
     margin-top: 80px;
+    border: solid black 2px;
 }
-.hasil h1{
+#hasil h1{
     color:rgb(107, 168, 248);
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-padding-top: 25px;
-margin-left: 25px;
+    font-size: 40px;
+padding-top: -25px;
+margin-left: 150px;
+
 }
 
 .panel1{
@@ -32,17 +34,39 @@ margin-left: 25px;
     gap: 30px;
     border: solid black 3px;
 }
-
+button {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 30px;
+    
+    margin-left: 20px;
+}
 .panel2{
     background-color: pink;
     width: 320px;
     height: 280px;
     border-radius: 10px;
-    margin-left:680px;
-    margin-top: -286px;
+    margin-left:310px;
+    margin-top: -239px;
     gap: 30px;
     border-right: solid black 3px;
     border-bottom: solid black 3px;
     border-top: solid black 3px;
 }
 
+.tombolbawah button{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 45px;
+    
+    margin-left: 15px;
+}
+
+.tombolatas{
+    background-color: white;
+    margin-left: 20px;
+}

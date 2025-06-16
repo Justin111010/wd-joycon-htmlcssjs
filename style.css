@@ -55,18 +55,50 @@ button {
     border-bottom: solid black 3px;
     border-top: solid black 3px;
 }
+.b1 :hover{
+    margin-left:55px;
+    margin-top: 60px;
 
+}
+.b1 button{
+    background-color: rgb(198, 225, 248);
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+.b2 button{
+    background-color: rgb(198, 225, 248);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.b3 button{
+    background-color: rgb(198, 225, 248);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+}
 .tombolbawah button{
-    background-color: white;
+    background-color: rgb(198, 225, 248);
     width: 80px;
     height: 80px;
     border-radius: 50px;
     margin-top: 45px;
     
-    margin-left: 15px;
+    margin-left: 5px;
+}
+.tombolbawah :hover{
+    background-color: white;
+}
+.tombolatas :hover{
+    background-color: white;
+    margin-left: 10px;
 }
 
-.tombolatas{
-    background-color: white;
-    margin-left: 20px;
+footer{
+    margin-left: 980px;
+    margin-top: 2 0px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
 }
